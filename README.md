@@ -60,7 +60,7 @@ print(df.shape)
 df.describe()
 ~~~
 ![Screenshot 2024-08-17 134600](https://github.com/user-attachments/assets/832427ba-9a92-4105-a180-1b3f8d531915)
-IQR:
+# IQR:
 ~~~
 import pandas as pd
 ir=pd.read_csv("/content/iris.csv")
@@ -97,7 +97,7 @@ delid
 sns.boxplot(x='sepal_width',data=delid)
 ~~~
 ![Screenshot 2024-08-17 134659](https://github.com/user-attachments/assets/2fc13aea-8934-45ac-bb3a-bd8f209bd7f4)
-Z-SCORE
+# Z-SCORE
 ~~~
 import matplotlib.pyplot as plt
 import pandas as pd
